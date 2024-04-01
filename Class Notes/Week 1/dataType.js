@@ -5,9 +5,9 @@
 //No special Char allowed 
 
 //String data type
-var name="Kelebet" 
-// console.log(name)
-// console.log(typeof name)
+var name="Tiana" 
+console.log(name)
+console.log(typeof name)
 
 //Number Data type
 var age=24 
