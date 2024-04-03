@@ -1,7 +1,5 @@
-let greeting = "Hello";
-const regularGreeting = greeting + '.';
-greeting = "Hi";
-let yelledGreeting = greeting + '!';
-let surprisedGreeting = "Oh! " + regularGreeting;
+function sayHello(name) {
+    return `Hello, ${name}!`;
+  }
 
-console.log(surprisedGreeting);
+  sayHello('tiana');
