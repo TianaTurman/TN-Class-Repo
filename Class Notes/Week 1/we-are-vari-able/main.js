@@ -1,6 +1,14 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
+var myFirstName = "YourFirstName"; // Replace with your first name
+var myLastName = "YourLastName";   // Replace with your last name
+var myFavoriteCeleb = "FavoriteCelebrity"; // Replace with your favorite celebrity's name
+var mySentence = "My name is " + myFirstName + " " + myLastName + ". My favorite celebrity is " + myFavoriteCeleb + ".";
+
+// Variables representing personal attributes
+
+
 
 
 /*********************************************************************************************************************

@@ -39,8 +39,9 @@ console.log(sum);
 
 // 8. Single vs Double Quotes
 // Both are used for strings, and they work the same way.
-let singleQuote = 'Hello';
+let singleQuote = 'He said';
 let doubleQuote = "World";
+console.log(doubleQuote)
 
 // 9. Commenting Out Lines
 // Use // for single line comments and /* */ for multi-line comments.
@@ -96,6 +97,7 @@ function fullName(firstName, lastName) {
     return firstName + " " + lastName;
 }
 
+
 // Modulus Operator
 // Modulus (%) operator returns the remainder after division.
 let remainder = 5 % 2; // 1
@@ -106,6 +108,8 @@ function subtract(a, b) {
     return a - b;
 }
 
+console.log(typeof remainder );
+ 
 // 13. Operators
 // Less Than, Greater Than (<, >): Compare two values.
 // Strict Equality (===): Checks both value and type.
@@ -129,7 +133,7 @@ if (message.length > 5) {
 // 15. Arrays
 // Arrays are used to store multiple values in a single variable.
 let fruits = ["Apple", "Banana", "Cherry"];
-console.log(fruits.length); // 3
+console.log(fruits[1]); // 3
 // Accessing Array Elements: Use the index, starting from zero.
 // Mutating Arrays: Change elements using their indexes.
 // Array Methods: push, pop, shift, unshift, slice, splice, split, join, indexOf, concat.

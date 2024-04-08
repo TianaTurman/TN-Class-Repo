@@ -1,5 +1,13 @@
-function sayHello(name) {
-    return `Hello, ${name}!`;
-  }
+// function sayHello(name) {
+//     return `Hello, ${name}!`;
+//   }
 
-  sayHello('tiana');
+//   sayHello('tiana');
+
+let message = 'hey';
+
+if (message.length > 5) {
+  console.log("Long message");
+} else {
+  console.log("Short message");
+}
