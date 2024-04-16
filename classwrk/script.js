@@ -1,9 +1,15 @@
-function licenseAge(age) {
-  if ( age >= 16) {
-    return 'you are old enough'
-  }else {
-    return 'not old enough'
-  }
-}
+// let age = 15;
 
-console.log(licenseAge(18))
+// function tikTokAge(age) {
+//   if ( age >= 16) {
+//     return 'you are old enough'
+//   }else {
+//     return 'not old enough'
+//   }
+// }
+
+// console.log(tikTokAge(age))
+
+for (let i = 0; i <= 3; i++){
+  console.log(i);
+}

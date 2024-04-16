@@ -18,7 +18,7 @@ let teamColor="Blue & grey";
 let teaSymbol="star";
 
 let carolsTeam="My favorite team is " + faveTeam + " and their color is "+ teamColor +"."
-
+console.log(carolsTeam)
 ///////////////////Escape sequence characters////////////////////////
 
 //     \n: new line
