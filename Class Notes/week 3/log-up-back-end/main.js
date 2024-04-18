@@ -13,7 +13,11 @@ const password3 = "supToThis"
 
 // **YOUR** code below. Pass those tests!
 
-
+function isValidEmail(email) {
+  return email.endsWith("@perseverenow.org") && email[0] !== '@' || 
+         email.endsWith('.prsvr@gmail.com') && email [0] !== '.';
+}
+console.log(isValidEmail('.jdoty.prsvr@gmail.org'))
 
 // Our code below. Do not touch!
 
