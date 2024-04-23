@@ -17,7 +17,28 @@ function isValidEmail(email) {
   return email.endsWith("@perseverenow.org") && email[0] !== '@' || 
          email.endsWith('.prsvr@gmail.com') && email [0] !== '.';
 }
-console.log(isValidEmail('.jdoty.prsvr@gmail.org'))
+
+
+function isValidPassword(password) {
+  return (
+    password.length >= 8 && 
+    password.toUpperCase() !== password &&
+    password.toLowerCase() !== password
+  );
+}
+
+
+function isRegisteredUser(email) {
+  return email === user1 || email === user2 || email === user3;
+}
+
+function passwordMatches(email, password){
+return (
+  (email === user1 && password === password1) ||
+  (email === user2 && password === password2) ||
+  (email === user3 && password === password3)
+);
+}
 
 // Our code below. Do not touch!
 
