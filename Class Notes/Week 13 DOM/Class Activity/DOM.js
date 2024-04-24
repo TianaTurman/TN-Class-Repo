@@ -2,7 +2,7 @@
 //document.querySelector("tagname")
 const firstParagraph = document.querySelector('p');
 
- console.log('First Paragraph:', firstParagraph.textContent);
+ console.log('First Paragraph:', firstParagraph.innerText);
 
 
 // // Get each of the paragraph using document.querySelector('#id') and by their id
