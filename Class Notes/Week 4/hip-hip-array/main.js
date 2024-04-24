@@ -23,38 +23,20 @@ const students = [
   'Andy'
 ];
 
-for(let i = 0; i < students.length; i++) {
-console.log(students[i])
-}
+
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
-const reversedArray = [];
-for(let i = grades.length - 1; i >= 0; i--) {
-  const valueAtIndex = grades[i]
-  
-  reversedArray.push(valueAtIndex)
-}
-console.log(reversedArray)
+
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
-let even = [];
-for(let i = 0; i < positiveNumbers.length; i++) {
-       if (positiveNumbers[i] % 2 == 0)
-       even.push(positiveNumbers[i]);
-}
- console.log(even)
+
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
-let num = [];
-for(let i = 0; i < mixedSignNumbers.length; i++) {
-  if (mixedSignNumbers[i] < 0 )
-  num.push(mixedSignNumbers[i]);
-}
-console.log(num)
+
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
 const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
