@@ -16,7 +16,7 @@ myFunction()
 
 var name = "Bridgett"
 
-function myName() {
+function myName(name) {
  return name
 }
 myName()
@@ -67,7 +67,7 @@ return number * number
 
 // //functions with two parameters
  function functionName(parm1, parm2) {
-//   //code goes here 
+ return parm1 * parm2
  }
  functionName(1, 2)
 
