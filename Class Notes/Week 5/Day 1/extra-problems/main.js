@@ -45,6 +45,7 @@ function containsUpperCase() {
 }
 
 function containsNonAlphanumeric() {
+  
 }
 
 function containsSpace() {
