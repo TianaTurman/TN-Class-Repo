@@ -1,6 +1,70 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function xify(str) {
+let newX = "";
+while(newX.length < str.length){
+newX += "x";
+}
+return newX;
+}
+
+function yellingChars(str) {
+let output = "";
+for(let i = 0; i < str.length; i++) {
+output = output + str[i] + "!"
+}
+return output;
+}
+
+
+function indexedChars(str) {
+let indexStr = "";
+for (let i = 0; i < str.length; i++){
+indexStr += i + str[i]; 
+}
+return indexStr;
+}
+
+console.log(indexedChars('Arizona'))
+
+function numberedChars(str){
+  let output = ""
+  for(let i = 0; i < str. length; i++){
+    output += "(" +  (i + 1) + ")" + str[i];
+  }
+  return output;
+}
+
+// function exclaim(str) {
+// let output = "";
+
+// for(let i = 0; i < str.length; i++ ) {
+//   if (str[i] === "?" || str[i] === "."){
+//     output += "!";
+//   }else{
+//     output += str[i];
+//   }
+// }
+// return output;
+// }
+function exclaim(str) {
+let output = "";
+let i = 0; //initialize index variable
+
+while (i < str.length){
+  if (str[i] === "?" || str[i] === "."){
+         output += "!";
+      }else{
+         output += str[i];
+       }
+       i++
+     }
+     return output;
+}
+
+
+
 
 
 
@@ -79,7 +143,7 @@ module.exports = {
   exclaim,
   repeatIt,
   truncate,
-  emailify,
+  // emailify,
   reverse,
   onlyVowels,
   crazyCase,
