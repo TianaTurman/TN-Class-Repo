@@ -32,16 +32,16 @@
 
 
 
-function testGreaterThan(val) {
-    if (val > 100) {  // Change this line
-      return "Over 100";
-    }
-  
-    if (val > 10) {  // Change this line
-      return "Over 10";
-    }
-  
-    return "10 or Under";
+function factorial(n) {
+  if(n == 1 || n == 0){
+    return 1;
+
+  }else {
+    return n * factorial(n-1)
   }
-  
-  testGreaterThan(15);
+}
+console.log(factorial(1));
+
+//2 - 2 * factorial(2)
+//2 - 3 * factorial(2)
+//1
