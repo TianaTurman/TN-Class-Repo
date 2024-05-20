@@ -1,23 +1,30 @@
 // YOUR CODE GOES HERE!!!
 /*************************/
-const getFirstName = (obj) => obj.firstName
+const getFirstName = (obj) => {
+  return obj.firstName
+}
+const getLastName = (obj) => {
+  return obj.lastName
+}
 
-const getLastName = (obj) => obj.lastName
+const getFullName = (obj) => `${obj.firstName} ${obj.lastName}`
 
-const getFullName = (obj) =>
-  `${obj.firstName} ${obj.lastName}`
+
 
 const setFirstName = (obj, name) => obj.firstName = name
 
 const setAge = (obj, num) => obj.age = num
 
 const giveBirthday = (obj) => {
-  if(!obj.age){
+  if (!obj.age) {
     obj.age = 1
-  }else{
+  } else {
     obj.age += 1
   }
 }
+
+
+
 
 const marry = (person1, person2) => {
   person1.married = true
@@ -32,7 +39,6 @@ const divorce = (person1, person2) => {
   delete person1.spouseName
   delete person2.spouseName
 }
-
 /****************************/
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
