@@ -1,5 +1,8 @@
 1. Book Object
 Create an object for a book with properties like title, author, and year, and a method to describe the book.
+`${this.title} was written by ${this.auther}`
+
+
 
 2. Animal Object
 Create an object for an animal with properties like species, name, and sound, and a method to make the animal speak.
