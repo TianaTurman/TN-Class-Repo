@@ -1,6 +1,9 @@
 // Exercise 1: Extracting Digits
 // Task: Write a regex to extract all digits from a given string.
-
+const str1 = "There are 3 cats and 4 dogs.";
+const regex1 = /\d+/g;
+const matches1 = str1.match(regex1);
+console.log(matches1); // ["3", "4"]
 
 
 
@@ -43,7 +46,10 @@
 // Task: Write a regex to extract prices from a given string (e.g., $4.99, $100.00).
 
 
-
+const str = "$4.99 $100.00.";
+const regex = /\$\d+\.\d{2}/g;
+const matches = str.match(regex);
+console.log(matches)
 
 
 // Exercise 9: Finding IP Addresses
