@@ -1,12 +1,5 @@
 // 1. Function to append a DOM element to the Arguments <ul>
-function addStrikethroughToFirstArgument() {
-    const firstArgument = document.querySelector('#arguments li');
-    if (firstArgument) {
-        firstArgument.style.textDecoration = 'line-through';
-    }
-}
 
-addStrikethroughToFirstArgument();
 
 // 2. Create an image element and append it to the Arguments <ul>
 
