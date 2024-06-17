@@ -8,6 +8,17 @@ var mySentence = "My name is " + myFirstName + " " + myLastName + ". My favorite
 
 // Variables representing personal attributes
 
+var message = "Global message";
+
+function showMessage(str) {
+  var message = "Local message"; // This "shadows" the global variable
+  console.log(message); // Accessing the local variable
+  if(message < str.legnth){
+    let noMessage = '';
+
+  }
+  
+}
 
 
 
